@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-name {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.site-name span {
+  color: #037bc0;
+}
+
+.container-nav {
+  border-top: 1px solid #e1e1e1;
+}
+
+.nav-main {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero {
+  background-image: url(../img/principal.jpg);
+  height: 550px;
+}
+
+.list-category {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
