@@ -1,3 +1,5 @@
+/* globals */
+
 a {
   text-decoration: none;
   color: black;
@@ -7,6 +9,13 @@ a {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* header and nav */
 
 .site-name {
   margin-top: 50px;
@@ -33,7 +42,27 @@ a {
   height: 550px;
 }
 
+/* categories */
+
+.categories h2 {
+  text-align: center;
+}
+
+.category a {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.category a:hover {
+  background-color: #037bc0;
+  color: #FFF;
+  border-radius: 0 0 5px 0;
+}
+
 .list-category {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
