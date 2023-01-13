@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
 }
 
 *,
@@ -10,6 +11,7 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
 }
 
 /* globals */
@@ -26,7 +28,7 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -38,9 +40,10 @@ img {
 /* header and nav */
 
 .site-name {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
+  font-size: 4rem;
 }
 
 .site-name span {
@@ -48,18 +51,20 @@ img {
 }
 
 .container-nav {
-  border-top: 1px solid #e1e1e1;
+  border-top: .1rem solid #e1e1e1;
 }
 
 .nav-main {
-  padding: 20px 0;
+  padding: 2rem 0;
   display: flex;
   justify-content: space-around;
 }
 
 .hero {
   background-image: url(../img/principal.jpg);
-  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55rem;
 }
 
 /* categories */
@@ -71,18 +76,18 @@ img {
 .category a {
   text-align: center;
   display: block;
-  padding: 20px;
-  font-size: 20px;
+  padding: 2rem;
+  font-size: 2rem;
 }
 
 .category a:hover {
   background-color: #037bc0;
   color: #fff;
-  border-radius: 0 0 5px 0;
+  border-radius: 0 0 1rem 0;
 }
 
 .list-category {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 2rem;
 }
