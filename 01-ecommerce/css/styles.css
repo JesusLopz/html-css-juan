@@ -1,11 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family:'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* globals */
 
-h1, h2,h3 {
-  font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
 }
 
 a {
@@ -65,7 +77,7 @@ img {
 
 .category a:hover {
   background-color: #037bc0;
-  color: #FFF;
+  color: #fff;
   border-radius: 0 0 5px 0;
 }
 
